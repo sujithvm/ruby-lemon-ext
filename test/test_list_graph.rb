@@ -14,12 +14,7 @@ class TestListGraph < Test::Unit::TestCase
     puts graph.erase_node(n1)
     puts "Size : #{graph.node_count}"
 
-
-
-    graph.clear()
-
-    
+    graph.clear()    
   end 
-
-
+  
 end
